@@ -1,23 +1,14 @@
 package com.uaspbo;
 
 public class Factory {
-
     public enum productType {
-
         SamsungPhone,
-
         ApplePhone,
-
         Laptop,
-
         ImportedLaptop,
-
         PrinterWithCartridge,
-
         PrinterWithoutCartridge,
-
         Camera
-
     }
 
     public static Product createProduct(productType t, String name, double price, String color, int stockNum) {
